@@ -12,8 +12,6 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-app.use(express.json());
-
 // CORS 설정
 const corsOptions = {
   origin: [
@@ -28,6 +26,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+app.use(express.json());
 
 app.post('/analyze-image', async (req, res) => {
   const imageUrl = req.body.imageUrl;
