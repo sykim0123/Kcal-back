@@ -18,7 +18,7 @@ const corsOptions = {
     "https://port-0-kcal-back-lxlts66g89582f3b.sel5.cloudtype.app",
     "https://web-kcal-front-lxlts66g89582f3b.sel5.cloudtype.app",
     "http://localhost:3000",
-    "http://127.0.0.1:5500",
+    "http://127.0.0.1:5501",
   ], // 허용할 도메인들
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // 허용할 HTTP 메서드
   credentials: true, // 쿠키 허용 여부
