@@ -15,8 +15,6 @@ const openai = new OpenAI({
 // CORS 설정
 const corsOptions = {
   origin: [
-    "https://port-0-kcal-back-lxlts66g89582f3b.sel5.cloudtype.app",
-    "https://web-kcal-front-lxlts66g89582f3b.sel5.cloudtype.app",
     "http://localhost:3000",
     "http://127.0.0.1:5500",
   ], // 허용할 도메인들
